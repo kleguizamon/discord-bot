@@ -1,0 +1,57 @@
+
+En el index inicio el bot y llamo a la instancia de las distintas clases
+
+//bot Weather
+bot.on("message", (msg) => {
+  MusicInstances.getWeather(msg);
+});
+
+Llamo al controller que va a ser el que controla el comando de play,skip,stop
+
+class WeatherController {
+  constructor(weatherServices) {
+    this.weatherServices = weatherServices;
+  }
+  getWeather = (msg) => {
+    const content = msg.content;
+    ***Hacer esto mismo pero con operadores ternarios o con objetos:
+    http://juanmirod.github.io/2018/10/26/refactor-if-switch.html
+
+    if (content.startsWith(`${prefix}${play}`)) {
+    //Llamo a la funcion de la clase WeatherServices
+        this.weatherServices.getWeather(city, msg);
+    }else{
+        msg.reply(`${weatherReply}`);
+    }
+
+    if (content.startsWith(`${prefix}${play}`)) {
+    //Llamo a la funcion de la clase WeatherServices
+        this.weatherServices.getWeather(city, msg);
+    }else{
+        msg.reply(`${weatherReply}`);
+    }
+
+    if (content.startsWith(`${prefix}${play}`)) {
+    //Llamo a la funcion de la clase WeatherServices
+        this.weatherServices.getWeather(city, msg);
+    }else{
+        msg.reply(`${weatherReply}`);
+    }
+
+    if (content.startsWith(`${prefix}${play}`)) {
+    //Llamo a la funcion de la clase WeatherServices
+        this.weatherServices.getWeather(city, msg);
+    }else{
+        msg.reply(`${weatherReply}`);
+    }
+  };
+}
+
+
+var numeroObtenido = content == play ? this.musicServices.getPlay:
+                    content == stop ? this.musicServices.getStop:
+                    acontent== skip ? this.musicServices.getPlay:
+                    a == 15 ? this.musicServices.getPlay:
+                    'Otro Número;
+
+

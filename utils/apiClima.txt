@@ -1,0 +1,38 @@
+//data:{
+
+    request: {
+      type: 'City',
+      query: 'Almagro, Argentina',
+      language: 'en',
+      unit: 'm'
+    },
+    location: {
+      name: 'Almagro',
+      country: 'Argentina',
+      region: 'Distrito Federal',
+      lat: '-34.600',
+      lon: '-58.417',
+      timezone_id: 'America/Argentina/San_Luis',
+      localtime: '2021-01-23 13:22',
+      localtime_epoch: 1611408120,
+      utc_offset: '-3.0'
+    },
+    current: {
+      observation_time: '04:22 PM',
+      temperature: 28,
+      weather_code: 116,
+      weather_icons: [Array],
+      weather_descriptions: [Array],
+      wind_speed: 11,
+      wind_degree: 20,
+      wind_dir: 'NNE',
+      pressure: 1016,
+      precip: 0,
+      humidity: 70,
+      cloudcover: 25,
+      feelslike: 31,
+      uv_index: 7,
+      visibility: 10,
+      is_day: 'yes'
+    }
+//}
